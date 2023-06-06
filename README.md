@@ -10,5 +10,5 @@ If we generate the wasm related js files with wasm-pack directly, no memory leak
 
 But if we generate the files using webpack config file, there is a memory growth visible.
 
-1. webpack --config webpack.config.js
+1. webpack --config webpack.config.cjs
 2. uncomment the required lines in index.html
